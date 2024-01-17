@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS/hub)
+- Live Site URL: [Live Site](https://fullspeccoder.github.io/frontend-mentor-blog-preview-card/)
 
 ## My process
 
