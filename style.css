@@ -1,0 +1,86 @@
+/* 
+Author: Jacob C Wilson
+
+Body made to center the card so that it is in the middle of the screen 
+*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: var(--body-background);
+}
+
+/* Card Styles */
+.card {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.25rem;
+  max-width: 275px;
+  background-color: var(--card-background);
+  border-radius: 1rem;
+  border: 1px solid black;
+  box-shadow: 9px 9px 0px -3px black;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card span {
+  display: block;
+}
+
+.card-category {
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.5rem 0.75rem;
+  border-radius: 3px;
+  background-color: var(--body-background);
+}
+
+.publish-date {
+  font-size: 0.75rem;
+}
+
+.card-heading {
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+.card-text {
+  line-height: 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--card-body-text);
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.profile > img {
+  width: 30px;
+  height: 30px;
+}
+
+.profile > span {
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 20px;
+}
