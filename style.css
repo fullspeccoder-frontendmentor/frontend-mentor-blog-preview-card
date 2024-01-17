@@ -56,6 +56,10 @@ body {
   font-size: 1.15rem;
 }
 
+.card-heading:hover {
+  color: var(--body-background);
+}
+
 .card-text {
   line-height: 1.25rem;
   font-size: 0.8rem;
